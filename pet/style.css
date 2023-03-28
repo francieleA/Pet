@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: #00008B;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*NavBar*/
+.navbar{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+
+header{
+    width: 100vw;
+    height: 90vh;
+    background-image: url('dog7.avif');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 300px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.header-content h2{
+    font-size: 40px;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background: #00008B;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 8px 15px;
+    background: #00008B;
+    border-radius: 30px;
+    color: #fff;
+}
